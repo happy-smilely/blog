@@ -80,13 +80,12 @@ check_env() {
 checkout_latest_release() {
   hash=$(git log --grep="chore(release):" -1 --pretty="%H")
 
-  # 커밋 해시가 존재하지 않으면 에러 처리
-  if [ -z "$hash" ]; then
-    echo "Error: Latest release commit not found."
-    exit 1
+  # hash가 비어있는 경우에만 통과
+  if [ -n "$hash" ]; then
+    git reset --hard "$hash"
+  else
+    echo "Warning: Latest release commit hash not found. Skipping git reset --hard."
   fi
-
-  git reset --hard "$hash"
 }
 
 init_files() {
