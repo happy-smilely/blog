@@ -1,5 +1,9 @@
 # The Site Configuration
 
+include:
+  - _javascript
+
+
 # Import the theme
 theme: jekyll-theme-chirpy
 
@@ -14,11 +18,11 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Jaehyuck's BLOG # the main title
+title:  Jaehyuck's BLOG # the main title
 
-tagline: WEB Developer # it will display as the sub-title
+tagline:  WEB Developer # it will display as the sub-title
 
-description: >- # used by seo meta and the atom feed
+description:  >-  # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
 
 # Fill in the protocol & hostname for your site.
@@ -28,9 +32,6 @@ url: "https://happy-smilely.github.io"
 github:
   username: happy-smilely # change to your github username
 
-notion:
-  username: twitter_username # change to your twitter username
-
 twitter:
   username: twitter_username # change to your twitter username
 
@@ -38,7 +39,7 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: 긍정긍정긍정맨
-  email: hjh70344@gmail.com # change to your email address
+  email:  hjh70344@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://happy-smilely.notion.site/HEO-JAE-HYUCK-s-Portfolio-1e80d91f29ef43beacdf59a17f1dba81?pvs=4 # change to your twitter homepage
@@ -130,8 +131,8 @@ assets:
     # only works if `assets.self_host.enabled` is 'true'
     env: # [development | production]
 
-pwa:
-  enabled: true # the option for PWA feature (installable)
+  pwa:
+  e which does not existnabled: true # the option for PWA feature (installable)
   cache:
     enabled: true # the option for PWA offline cache
     # Paths defined here will be excluded from the PWA cache.
@@ -219,3 +220,4 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
