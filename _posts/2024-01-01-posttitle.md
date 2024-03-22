@@ -1,4 +1,4 @@
-title: 포스팅 title
+title: 포스팅title
 date: 2024-01-01 00:00:00 +09:00
 categories: [메인 카테고리, 서브 카테고리]
 tags:
