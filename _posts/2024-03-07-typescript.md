@@ -9,6 +9,10 @@ tags:
     study
   ]
 ---
+
+> React, Node.js (express) 구축하면서 공부했던 TypeScript 에 대한 기록 
+{: .prompt-tip }
+
 TypeScript은 JavaScript의 확장이자, 정적 타입 체크를 제공하는 프로그래밍 언어입니다. JavaScript로 컴파일되며, 큰 프로젝트를 관리하고 유지보수하기 쉽도록 도와줍니다.
 
 ## 주요 특징
